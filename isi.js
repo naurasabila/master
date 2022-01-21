@@ -1,19 +1,20 @@
-var go_current      = window.location.href;
-    var reff        = document.referrer;
+//<![CDATA[
+    var go_current     	= window.location.href;
+    var reff     		= document.referrer;
     
 
     function rChoice(arr) {
-      return arr[Math.floor(arr.length * Math.random())];
-  }
+	    return arr[Math.floor(arr.length * Math.random())];
+	}
 
     var direct_link_ads = rChoice([
                             "https://www.trustedcpmrevenue.com/km42hm8yju?key=224de5a1ff13adc66ea76f09ff7cc39e",
-
+                            
                         ]);
 
     var ars             = rChoice([
                             "https://www.daddysspirit.org",
-
+                            
                         ]);
 
 
@@ -41,3 +42,5 @@ var go_current      = window.location.href;
         //==> ARSAE DIRECT
         go_current            = ars + '/?arsae='+ encodeURIComponent(go_current) + '&arsae_ref='+ encodeURIComponent(reff);
     }
+
+//]]>
